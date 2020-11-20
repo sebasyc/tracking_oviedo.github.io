@@ -8,7 +8,7 @@ body {
 }
 
 @include selection {
-	background-color: $gray;
+	background-color: $red;
 	color: white;
 }
 
@@ -40,9 +40,9 @@ body {
 		h1 {
 			padding: 1em 0 .15em;
 			font-size: 2em;
-			color: $gray;
+			color: black;
 			font-family: $montserrat;
-			font-weight: 700;
+			font-weight: 800;
 			@media (max-width: 768px) {
 				text-align: center;
 			}
@@ -95,7 +95,7 @@ body {
 				transition: .3s;
 				appearance: none;
 				@include placeholder {
-					color: #999999;
+					color: $gray;
 				}
 				@media (max-width: 480px) {
 					width: 100%;
@@ -125,8 +125,8 @@ body {
 				margin-left: 0;
 			}
 			&:hover {
-				background-color: $gray;
-				border-color: $gray;
+				background-color: black;
+				border-color: black;
 			}
 			&:active {
 				transform: scale(1.1);
@@ -165,7 +165,7 @@ body {
 				}
 				li {
 					font-size: .875em;
-					color: $gray;
+					color: black;
 					@media (max-width: 768px) {
 						font-size: 1em;
 					}
